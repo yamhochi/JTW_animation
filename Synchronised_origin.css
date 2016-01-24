@@ -1,0 +1,21 @@
+/** torque visualization */
+
+Map {
+-torque-frame-count:1;
+-torque-animation-duration:1;
+-torque-time-attribute:"time";
+-torque-aggregation-function:"sqrt(sum(employed_persons))";
+-torque-resolution:2;
+-torque-data-aggregation:linear;
+}
+
+#jtw_clean_vertical5_all_steps{
+  comp-op: lighter;
+  marker-fill-opacity: 0.9;
+  marker-line-color: #FFF;
+  marker-line-width: 0;
+  marker-line-opacity: 1;
+  marker-type: ellipse;
+  marker-width: [value]/10;
+  marker-fill: #FFA300;
+}

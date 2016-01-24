@@ -1,0 +1,30 @@
+/** torque visualization */
+
+Map {
+-torque-frame-count:128;
+-torque-animation-duration:20;
+-torque-time-attribute:"frame";
+-torque-aggregation-function:"sqrt(sum(employed_persons))";
+-torque-resolution:2;
+-torque-data-aggregation:linear;
+}
+
+#jtw_clean_vertical_7_rand{
+  comp-op: lighter;
+  marker-fill-opacity: 1;
+  marker-type: ellipse;
+  marker-width: [value]/3;
+  marker-fill: #0F3B82;
+}
+#jtw_clean_vertical_7_rand[frame-offset=1] {
+ marker-width:[value]/3;
+ marker-fill-opacity:0.45; 
+}
+#jtw_clean_vertical_7_rand[frame-offset=2] {
+ marker-width:[value]/3;
+ marker-fill-opacity:0.25; 
+}
+#jtw_clean_vertical_7_rand[frame-offset=3] {
+ marker-width:[value]/3;
+ marker-fill-opacity:0.15; 
+}
